@@ -817,7 +817,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #1b131f;
+  color: #ffffff;
 }
 
 .why-us .box h4 {
@@ -1010,6 +1010,8 @@ section {
 --------------------------------------------------------------*/
 .events {
   background-color: #1b131f;
+  background-size: cover;
+  position: relative;
 }
   .img-event{
     width: 500px;
@@ -1670,9 +1672,6 @@ section {
   border-radius: 50px;
   border: 1px solid #454035;
 }
-
-
-
 
 #footer .copyright {
   text-align: center;
