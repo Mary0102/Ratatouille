@@ -1009,10 +1009,12 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
-  background-size: cover;
-  position: relative;
+  background-color: #1b131f;
 }
+  .img-event{
+    width: 500px;
+    height: 400px;
+  }
 
 .events::before {
   content: "";
@@ -1669,28 +1671,7 @@ section {
   border: 1px solid #454035;
 }
 
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-  background: #1d1d1c;
-  color: white;
-}
 
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  /*position: absolute;*/
-  top: -1px;
-  right: -1px;
-  bottom: -1px;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px 2px 20px;
-  background: #c88b93;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-}
 
 
 #footer .copyright {
