@@ -817,7 +817,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #cda45e;
+  color: #1b131f;
 }
 
 .why-us .box h4 {
@@ -836,7 +836,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #cda45e;
+  background: #1b131f;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -922,7 +922,7 @@ section {
 }
 
 .menu .menu-content a:hover {
-  color: #cda45e;
+  color: #c88b93;
 }
 
 .menu .menu-content span {
@@ -1050,7 +1050,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #cda45e;
+  color: #fdfaff;
 }
 
 .events .event-item .price {
@@ -1061,7 +1061,7 @@ section {
 }
 
 .events .event-item .price span {
-  border-bottom: 2px solid #cda45e;
+  border-bottom: 2px solid #ffffff;
 }
 
 .events .event-item ul {
@@ -1573,6 +1573,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 {
+  align-items: center;
   font-size: 24px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
@@ -1591,6 +1592,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
+
   font-size: 18px;
   display: inline-block;
   background: #292928;
@@ -1608,7 +1610,8 @@ section {
 #footer .footer-top .social-links a:hover {
   background: #c88b93;
   color: #fff;
-  text-decoration: none;
+  text-decoration: none;  
+
 }
 
 #footer .footer-top h4 {
@@ -1675,7 +1678,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
+  /*position: absolute;*/
   top: -1px;
   right: -1px;
   bottom: -1px;
@@ -1689,9 +1692,6 @@ section {
   border-radius: 50px;
 }
 
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #c88b93;
-}
 
 #footer .copyright {
   text-align: center;
